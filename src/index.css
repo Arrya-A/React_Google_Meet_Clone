@@ -1,0 +1,51 @@
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+:root{
+    --primary-color: rgb(26,115,232);
+}
+
+.custom-button{
+    padding: 9px 22px;
+    border-radius: 4px;
+}
+/* header */
+.link{
+    font-size: 14px;
+}
+.custom-navbar {
+    border: 1px solid #ddd; /* Light gray border */
+    border-radius: 4px;     /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: shadow for better appearance */
+}
+
+
+.custom-buttongroup {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 3px 13px;
+}
+
+.custom-buttongroup .dropdown-toggle {
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: var(--primary-color);
+}
+
+.custom-buttongroup .dropdown-menu {
+    border-radius: 4px; 
+    border: 1px solid #ddd;
+}
+
+.custom-buttongroup .dropdown-menu .dropdown-item {
+    color: var(--primary-color);
+
+}
+
+.custom-buttongroup .dropdown-menu .dropdown-item:hover {
+    background-color: #f0f0f0;
+}
