@@ -1,25 +1,33 @@
-*{
+* {
     font-family: "Roboto", sans-serif;
     margin: 0px;
     padding: 0px;
 }
 
-:root{
-    --primary-color: rgb(26,115,232);
+:root {
+    --primary-color: rgb(26, 115, 232);
 }
 
-.custom-button{
+.custom-button {
     padding: 9px 22px;
     border-radius: 4px;
 }
+
 /* header */
-.link{
+.link {
     font-size: 14px;
 }
+
 .custom-navbar {
-    border: 1px solid #ddd; /* Light gray border */
-    border-radius: 4px;     /* Optional: rounded corners */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: shadow for better appearance */
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    border: 1px solid #ddd;
+    /* Light gray border */
+    border-radius: 4px;
+    /* Optional: rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* Optional: shadow for better appearance */
 }
 
 
@@ -37,7 +45,7 @@
 }
 
 .custom-buttongroup .dropdown-menu {
-    border-radius: 4px; 
+    border-radius: 4px;
     border: 1px solid #ddd;
 }
 
@@ -48,4 +56,39 @@
 
 .custom-buttongroup .dropdown-menu .dropdown-item:hover {
     background-color: #f0f0f0;
+}
+
+.checkbox {
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Footer */
+.searchContainer {
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.searchInput {
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 16px;
+}
+
+.searchButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+/* Footer */
+.gray-text{
+    color: gray;
+}
+.gray-text p{
+    font-size: small;
 }

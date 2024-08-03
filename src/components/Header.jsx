@@ -10,7 +10,7 @@ import Dropdown from 'react-bootstrap/Dropdown';
 function Header() {
     return (
         <>
-            <Navbar expand="lg" className="bg-body-light custom-navbar">
+            <Navbar expand="lg" className="custom-navbar fixed-top">
                 <Container fluid>
                     <Navbar.Brand href="#home">
                         <img
