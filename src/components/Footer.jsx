@@ -23,7 +23,7 @@ function Footer() {
             <FontAwesomeIcon icon={faSquareFacebook} size="xl" />
           </div>
           <div className="col-md-2">
-  
+
           </div>
           <div className="col-md-4">
             <form>
@@ -34,15 +34,15 @@ function Footer() {
                   placeholder="Search this site"
                   className='searchInput'
                 />
-  
+
               </div>
             </form>
           </div>
           <div className="col-md-1"></div>
         </div>
         <hr style={{ width: '83%', margin: 'auto' }} />
-  
-  
+
+
         <div className="row py-5">
           <div className="col-md-1"></div>
           <div className="col-md-2">
@@ -66,7 +66,7 @@ function Footer() {
             <p>Endpoint</p>
             <p>Vault</p>
             <p>Work Insights</p>
-  
+
             <h6 className='mt-4'>Solutions</h6>
             <p>New Business</p>
             <p>Small Business</p>
@@ -78,7 +78,7 @@ function Footer() {
           <div className="col-md-2">
             <h6>Pricing</h6>
             <p>Compare pricing plans</p>
-  
+
             <h6 className='mt-4'>Add ons</h6>
             <p>Gemini for Workspace</p>
             <p>AppSheet</p>
@@ -104,7 +104,7 @@ function Footer() {
             <p>Find a Google Workspace Partner</p>
             <p>Join the community of IT Admins</p>
             <p>Press</p>
-  
+
             <h6 className='mt-4'>More from Google</h6>
             <p>Google Cloud</p>
             <p>Chrome Enterprise</p>
@@ -115,10 +115,10 @@ function Footer() {
           </div>
           <div className="col-md-1"></div>
         </div>
-  
+
         <hr style={{ width: '83%', margin: 'auto' }} />
-  
-  
+
+
         <div className="row py-5">
           <div className="col-md-1"></div>
           <div className="col-md-10 d-flex justify-content-between">
@@ -132,11 +132,11 @@ function Footer() {
               <p className='ms-4'>Terms</p>
             </div>
             <div>
-            <p><FontAwesomeIcon icon={faGlobe} size='lg' className='me-2' />English - India</p>
+              <p><FontAwesomeIcon icon={faGlobe} size='lg' className='me-2' />English - India</p>
             </div>
           </div>
-  
-  
+
+
           <div className="col-md-1"></div>
         </div>
       </div>

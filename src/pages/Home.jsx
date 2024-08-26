@@ -10,6 +10,7 @@ function Home() {
       {/* section 1 */}
       <div className="row mt-5">
         <div className="col-md-1"></div>
+
         <div className="col-md-5 p-5 m-3" style={{ height: '100vh' }}>
           <img className='mb-3' src="https://storage.googleapis.com/googwebreview.appspot.com/grow-ext-cloud-images-uploads/7uffzv9dk4sn-3dAGxdfnn2dy6LPNvOTYRx-8be390cd801f65e46a67dec3941d7c86-Google_Meet_Logo_x2_5E4DE7D1.svg" alt="" />
           <h1 style={{ fontSize: '55px', fontWeight: '600' }}>Video calls with anyone, anywhere</h1>
@@ -26,7 +27,6 @@ function Home() {
                 </DropdownButton>
               </ButtonGroup>
             </div>
-
           </div>
           <div className='d-flex pt-3'>
             <p>Join a meeting now</p>
@@ -36,6 +36,7 @@ function Home() {
         <div className="col-md-5 mt-3 ps-0 ms-0" style={{ height: '100vh' }}>
           <img src="https://lh3.googleusercontent.com/ymE-oI_G6XpO7K6hL4asEjjhdRl23BOB-ytyvZ6ExQ-Mhkzp9AgMiQsQXU8Vzsjk3H3syNRdv-Qy_3Q_mkxsj0IzxG7ESJvW0AXEig=e365-pa-nu-rw-w1416" alt="" style={{ height: '75%' }} />
         </div>
+
         <div className="col-md-1"></div>
       </div>
 
@@ -44,6 +45,7 @@ function Home() {
       {/* section 2 */}
       <div className="row" style={{ height: '70vh' }}>
         <div className="col-md-1"></div>
+
         <div className="col-md-5 mt-3 ps-0 ms-0" style={{ height: '100vh' }}>
           <img src="https://lh3.googleusercontent.com/d2tc-nf-842eRDF3C5bc6F9muUpq2khc8CBlzKd8j6yuk39ttqD8lpifek7NKGQWAqy1TcpfzPr8LvBbzHBsFzmnkJ76--5-jNj30g=e365-pa-nu-rw-w1508" alt="" style={{ height: '55%' }} />
         </div>
@@ -80,6 +82,7 @@ function Home() {
       {/* section 4 */}
       <div className="row" style={{ height: '70vh' }}>
         <div className="col-md-1"></div>
+
         <div className="col-md-5 mt-3 ps-0 ms-0" style={{ height: '100vh' }}>
           <img src="https://lh3.googleusercontent.com/CFCZLdZPy7CX9QjvIkII27Iio7TtE7iIpXgcdGjAU20_q9muWaU-3TV60u7w6SDuGjsReUsuf9q4OKCxHLUxz93XByL8-zEgvN-CDA=e365-pa-nu-rw-w1508" alt="" style={{ height: '57%' }} />
         </div>
@@ -100,6 +103,7 @@ function Home() {
       {/* section 5 */}
       <div className="row" style={{ height: '80vh' }}>
         <div className="col-md-1"></div>
+
         <div className="col-md-5 mt-5 ps-5 ms-5" style={{ height: '100vh' }}>
           <img src="https://lh3.googleusercontent.com/fAghi5G1_qYY-QMqYXgsgnihV-FWAlhADf_LTR6JJIY4cUOFUpANz7BsFQ-Nj8mj10v7t6qdaGUzxfxpyWZh6SVen028KGpvECE-TyE=e365-pa-nu-s0" alt="" style={{ height: '65%' }} />
         </div>
@@ -113,7 +117,6 @@ function Home() {
         <div className="col-md-1"></div>
       </div>
 
-
       <div className='text-center'>
         <h1 className='mt-5'>Do more, together</h1>
         <p className='fs-5 text-secondary'>Seamlessly collaborate with integrations across Google Workspace.
@@ -125,6 +128,7 @@ function Home() {
       {/* section 6 */}
       <div className="row p-5 m-5" style={{ height: '70vh' }}>
         <div className="col-md-1"></div>
+
         <div className="col-md-5" style={{ height: '100vh' }}>
           <h5 className='fs-5 text-secondary mt-5 pt-5'>Collaborate together</h5>
           <p className='text-secondary mb-5'>Collaborate in context by meeting directly from Google Docs, Sheets and Slides.</p>
@@ -135,7 +139,6 @@ function Home() {
           <img src="https://lh3.googleusercontent.com/Mb_8r1dXB_TkjcWfUrz6NvLYJDKte3Q9qWB9O0C7DKO3BbGvWq2nC0ocaRmJ8ZbRpW-pSizV-FT3Diy4rEmA5TDbnnNwnwPIng6lR3x6=e365-pa-nu-s0" alt="" style={{ height: '65%' }} />
         </div>
 
-
         <div className="col-md-1"></div>
       </div>
 
@@ -144,6 +147,7 @@ function Home() {
       {/* section 7 */}
       <div className="row  " style={{ height: '70vh' }}>
         <div className="col-md-1"></div>
+
         <div className="col-md-5 d-flex  align-items-center justify-content-center" style={{ height: '100vh' }}>
           <img src="https://lh3.googleusercontent.com/ZgI-764BB-3qOD-vWLfQNxeBvgGhx6hx9UOLBUvJGyT8wgF85sVd43mKc396FIkotPyb21UJhxTjQqZmWbdW8sIT4nZCdd8QUJEkbF0=e365-pa-nu-rw-w1508" alt="" style={{ height: '55%' }} />
         </div>
@@ -213,10 +217,6 @@ function Home() {
               </DropdownButton>
             </ButtonGroup>
           </div>
-
-
-
-
         </div>
       </div>
 
@@ -232,24 +232,21 @@ function Home() {
         <div className="col-md-2"></div>
       </div>
 
-
       <div className='d-flex align-items-center justify-content-center' style={{ backgroundColor: 'whitesmoke' }}>
-        
 
         <form className='w-50 p-5 m-5'>
-        <h3 className='mb-4'>Sign up for the Google Workspace newsletter</h3>
+          <h3 className='mb-4'>Sign up for the Google Workspace newsletter</h3>
           <input type="email" placeholder='Enter your mail address' className='form-control' />
           <div className='d-flex mt-4'>
-            <input type="checkbox" className='checkbox'/>
-            <p className='ms-3' style={{fontSize:'12px'}}>Also sign me up for Google Cloud emails with news, product updates, event information, special offers, and more. (Optional and you can unsubscribe at a later time).</p>
-            </div>
-            <p style={{fontSize:'12px'}}>I understand that my personal data will be processed in accordance with Google’s <span><a href='#'>Privacy Policy</a></span>.</p>
-            <div className='text-end'>
-              <button className='btn btn-primary me-2 custom-button'>Sign up</button>
-            </div>
+            <input type="checkbox" className='checkbox' />
+            <p className='ms-3' style={{ fontSize: '12px' }}>Also sign me up for Google Cloud emails with news, product updates, event information, special offers, and more. (Optional and you can unsubscribe at a later time).</p>
+          </div>
+          <p style={{ fontSize: '12px' }}>I understand that my personal data will be processed in accordance with Google’s <span><a href='#'>Privacy Policy</a></span>.</p>
+          <div className='text-end'>
+            <button className='btn btn-primary me-2 custom-button'>Sign up</button>
+          </div>
         </form>
       </div>
-
     </>
   )
 }
