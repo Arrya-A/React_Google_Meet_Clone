@@ -207,7 +207,7 @@ function Home() {
 
           <div className='mb-5 pb-5'>
             <ButtonGroup className='custom-buttongroup'>
-              <DropdownButton as={ButtonGroup} title="Try Meet for work  " id="bg-nested-dropdown">
+              <DropdownButton as={ButtonGroup} title="Try Meet for work" id="bg-nested-dropdown">
                 <Dropdown.Item eventKey="1">For small business</Dropdown.Item>
                 <Dropdown.Item eventKey="2">For enterprise</Dropdown.Item>
               </DropdownButton>
